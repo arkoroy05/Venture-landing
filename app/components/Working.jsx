@@ -7,7 +7,6 @@ import HyperText from './ui/hyper-text'
 export default function Working() {
   return (
     <div className='h-[40rem] w-full relative'>
-      {/* Gradient overlay at the bottom */}
       <div
         style={{
           position: 'absolute',
@@ -21,8 +20,8 @@ export default function Working() {
       ></div>
 
       <HyperText
-      className=" md:text-7xl ml-11 font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50"
-      text="Workings"
+      className=" md:text-6xl ml-11 font-bold text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400 bg-opacity-50"
+      text="features"
       ></HyperText>
 
       <div>
@@ -34,39 +33,39 @@ export default function Working() {
 
 export const desc = [
   {
-    title: "Pitch your ideas to the community",
+    title: "Weekly Pitch Platform",
     description:
-      "Pitching your ideas has never been easier, express your ideas as if writing a blog",
+      "Offers aspiring entrepreneurs a consistent weekly schedule to pitch their ideas, fostering a dynamic space for ongoing innovation and engagement.",
     link : "/"
   },
   {
-    title: "Let the community vote",
+    title: "Community-Driven Validation",
     description:
-      "If your ideas appeal to the community, they can upvote it , more upvotes means more reach",
+      "Provides a democratic, Reddit-like voting system where the community decides which ideas have the most potential, giving instant feedback on idea viability.",
     link : "/a"
   },
   {
-    title: "Voting closes at the end of the week",
+    title: "Real-Time Feedback Loop",
     description:
-      "At exactly 11:59pm on Friday , voting closes. Top 3 posts from each category gets reviewed manually and selected",
+      "Allows users to refine and improve their pitches throughout the week based on community responses, enhancing learning and improving idea quality.",
     link : "/b"
   },
   {
-    title: "Results on Saturday",
+    title: "Exclusive Access to Industry Experts",
     description:
-      "Winners are announced on Saturday",
+      "Winners get a unique opportunity to gain mentorship from experienced industry professionals every Sunday, bridging the gap between ideas and actionable insights.",
     link : "/c"
   },
   {
-    title: "Prepare your questions",
+    title: "Exposure to Targeted Audiences",
     description:
-      "Now that your projects are shortlisted you get to connect with leading industry professionals and ask them relevant questions.",
+      "With community-focused pitching, users receive exposure to audiences genuinely interested in their field, increasing the likelihood of finding collaborators or investors.",
     link : "/d"
   },
   {
-    title: "Meet on Sunday",
+    title: "Idea Validation and Growth Potential",
     description:
-      "Ask those questions on Sunday and gain valuable insights",
+      "By regularly winning community support and expert attention, ideas are pre-validated, which can make them more attractive for further funding or development.",
     link : "/e"
   },
 ];
